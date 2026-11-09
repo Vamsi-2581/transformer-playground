@@ -5,6 +5,9 @@ A playground for people interested in experimenting with Transformers. The goal 
 2. How these components interact with each other to form training, evaluation, and generation pipelines.
 3. Pointers to modern implementations and optimizations for these components and pipelines.
 
+The components and their interactions are shown in the following diagram. 
+![component-diagram](figs/component-diagram.png)
+
 # Quick Start
 
 ## Generate Plays
