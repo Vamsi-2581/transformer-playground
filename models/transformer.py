@@ -135,7 +135,7 @@ class Transformer(nn.Module):
           x = self.position_encoding(x)
           x = self.dropout_encoder_embedding(x)
           for layer in self.decoder:
-              y = layer(x, None)
+              x = layer(x, None)
 
           return self.fully_connected(y) 
 
