@@ -137,7 +137,7 @@ class Transformer(nn.Module):
           for layer in self.decoder:
               x = layer(x, None)
 
-          return self.fully_connected(y) 
+          return self.fully_connected(x) 
 
     def count_trainable_parameters(self, unique=False):
       if unique:
